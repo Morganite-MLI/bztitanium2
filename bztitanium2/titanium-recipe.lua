@@ -1,6 +1,6 @@
 -- Titanium smelting
 
-local util = require("__bztitanium__.data-util");
+local util = require("data-util");
 local item_sounds = require('__base__.prototypes.item_sounds')
 
 if mods["FactorioExtended-Plus-Core"] then
@@ -29,8 +29,8 @@ data:extend({
     order = "d[titanium-plate]",
     icons = (util.k2() and
         {
-          { icon = "__bztitanium__/graphics/icons/titanium-plate.png", icon_size = 64, icon_mipmaps = 3,},
-          { icon = "__bztitanium__/graphics/icons/titanium-ore.png", icon_size = 64, icon_mipmaps = 3, scale=0.25, shift= {-8, -8}},
+          { icon = "__bztitanium2__/graphics/icons/titanium-plate.png", icon_size = 64, icon_mipmaps = 3,},
+          { icon = "__bztitanium2__/graphics/icons/titanium-ore.png", icon_size = 64, icon_mipmaps = 3, scale=0.25, shift= {-8, -8}},
         } or nil),
     enabled = false,
     allow_productivity = true,
@@ -47,7 +47,7 @@ data:extend({
   {
     type = "item",
     name = util.me.titanium_plate,
-    icon = "__bztitanium__/graphics/icons/titanium-plate.png",
+    icon = "__bztitanium2__/graphics/icons/titanium-plate.png",
     icon_size = 64, icon_mipmaps = 3,
     subgroup = "raw-material",
     order = "b[titanium-plate]",
@@ -61,7 +61,7 @@ data:extend({
     type = "technology",
     name = "titanium-processing",
     icon_size = 256, icon_mipmaps = 4,
-    icon = "__bztitanium__/graphics/technology/titanium-processing.png",
+    icon = "__bztitanium2__/graphics/technology/titanium-processing.png",
     effects =
     {
       {
@@ -111,7 +111,7 @@ data:extend({
     subgroup = "vulcanus-processes",
     order = "d[titanium-ore]",
     icons = {
-          { icon = "__bztitanium__/graphics/icons/titanium-ore.png", icon_size = 64, icon_mipmaps = 3},
+          { icon = "__bztitanium2__/graphics/icons/titanium-ore.png", icon_size = 64, icon_mipmaps = 3},
           { icon = "__base__/graphics/icons/stone.png", icon_size = 64, scale = 0.25, shift = {-8, -8}},
         },
     enabled = false,
@@ -129,7 +129,7 @@ data:extend({
     order = "d[titanium-sublimation]",
     icons = {
           util.vacuum_icon,
-          { icon = "__bztitanium__/graphics/icons/titanium-plate.png", icon_size = 64, scale=0.25, icon_mipmaps = 3, shift = {-8, -8}},
+          { icon = "__bztitanium2__/graphics/icons/titanium-plate.png", icon_size = 64, scale=0.25, icon_mipmaps = 3, shift = {-8, -8}},
         },
     enabled = false,
     allow_productivity = true,
@@ -149,7 +149,7 @@ data:extend({
     subgroup = "vulcanus-processes",
     order = "d[titanium-ore]",
     icons = {
-          { icon = "__bztitanium__/graphics/icons/titanium-plate.png", icon_size = 64, icon_mipmaps = 3},
+          { icon = "__bztitanium2__/graphics/icons/titanium-plate.png", icon_size = 64, icon_mipmaps = 3},
           util.vacuum_icon_small,
         },
     enabled = false,
@@ -166,7 +166,7 @@ data:extend({
     name = "titanium-extraction",
     category = "organic-or-hand-crafting",
     icons = {
-          { icon = "__bztitanium__/graphics/icons/titanium-ore.png", icon_size = 64, scale = 0.5, icon_mipmaps = 3, shift = {6,8}},
+          { icon = "__bztitanium2__/graphics/icons/titanium-ore.png", icon_size = 64, scale = 0.5, icon_mipmaps = 3, shift = {6,8}},
           { icon = "__space-age__/graphics/icons/jellynut.png", icon_size = 64, scale = 0.5, shift = {-6, -8}},
         },
     surface_conditions =

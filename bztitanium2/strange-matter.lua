@@ -1,8 +1,8 @@
-local util = require("__bztitanium__.data-util");
+local util = require("data-util");
 
 
 local ore = "titanium-ore"
-local ore_icon = "__bztitanium__/graphics/icons/titanium-ore.png"
+local ore_icon = "__bztitanium2__/graphics/icons/titanium-ore.png"
 
 if mods["StrangeMatter"] then
 data:extend({

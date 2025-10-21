@@ -1,7 +1,7 @@
 -- Settings, etc.
 --
 -- Finalize tech tree based on settings and other dependent mods.
-local util = require("__bztitanium__.data-util");
+local util = require("data-util");
 
 local mining_fluid 
 if settings.startup["bztitanium-mining-fluid"] then 

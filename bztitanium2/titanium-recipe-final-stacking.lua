@@ -1,12 +1,12 @@
 -- Deadlock stacking recipes
 
-local util = require("__bztitanium__.data-util");
+local util = require("data-util");
 
 if deadlock and deadlock["add_stack"] then
-  deadlock.add_stack("titanium-ore",  "__bztitanium__/graphics/icons/stacked/titanium-ore-stacked.png", "deadlock-stacking-2", 64)
-  deadlock.add_stack(util.me.titanium_plate, "__bztitanium__/graphics/icons/stacked/titanium-plate-stacked.png" , "deadlock-stacking-2", 64)
+  deadlock.add_stack("titanium-ore",  "__bztitanium2__/graphics/icons/stacked/titanium-ore-stacked.png", "deadlock-stacking-2", 64)
+  deadlock.add_stack(util.me.titanium_plate, "__bztitanium2__/graphics/icons/stacked/titanium-plate-stacked.png" , "deadlock-stacking-2", 64)
   if util.k2() then
-    deadlock.add_stack("enriched-titanium", "__bztitanium__/graphics/icons/stacked/enriched-titanium-stacked.png" , "deadlock-stacking-2", 64)
+    deadlock.add_stack("enriched-titanium", "__bztitanium2__/graphics/icons/stacked/enriched-titanium-stacked.png" , "deadlock-stacking-2", 64)
   end
   if data.raw.item["titanium-ingot"] then
     deadlock.add_stack("titanium-ingot", nil, "deadlock-stacking-2", nil)

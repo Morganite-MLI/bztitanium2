@@ -1,7 +1,7 @@
 -- Final Krastorio 2 changes
 -- There are other K2 changes throughout
 
-local util = require("__bztitanium__.data-util");
+local util = require("data-util");
 if util.k2() then
   -- Titanium modifies flying robot frames, so use them in a reasonable tech card in Krastorio 2
   util.multiply_recipe("kr-advanced-tech-card", 2)

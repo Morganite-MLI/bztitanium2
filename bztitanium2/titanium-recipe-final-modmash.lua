@@ -1,4 +1,4 @@
-local util = require("__bztitanium__.data-util");
+local util = require("data-util");
 
 if mods["modmashsplinter"] then
   if mods["modmashsplinterresources"] then
@@ -6,13 +6,13 @@ if mods["modmashsplinter"] then
 
     data.raw.recipe["alien-enrichment-process-to-titanium-ore"].icons = {
       { icon = "__modmashsplinterresources__/graphics/icons/alien-ooze.png", icon_size = 64},
-      { icon = "__bztitanium__/graphics/icons/titanium-ore.png", icon_size = 64, icon_mipmaps = 3, scale=0.25, shift= {8, 8}},
+      { icon = "__bztitanium2__/graphics/icons/titanium-ore.png", icon_size = 64, icon_mipmaps = 3, scale=0.25, shift= {8, 8}},
     }
 
     if mods["modmashsplinterenrichment"] then
       data.raw.recipe["ore-enrichment-process-titanium-ore"].icons = {
         { icon = "__base__/graphics/icons/fluid/steam.png", icon_size = 64},
-        { icon = "__bztitanium__/graphics/icons/titanium-ore.png", icon_size = 64, icon_mipmaps = 3, scale=0.25, shift= {8, 8}},
+        { icon = "__bztitanium2__/graphics/icons/titanium-ore.png", icon_size = 64, icon_mipmaps = 3, scale=0.25, shift= {8, 8}},
       }
     end
   end

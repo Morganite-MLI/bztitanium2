@@ -1,5 +1,5 @@
 local resource_autoplace = require('resource-autoplace');
-local util = require("__bztitanium__.data-util");
+local util = require("data-util");
 local item_sounds = require('__base__.prototypes.item_sounds')
 
 if mods["FactorioExtended-Plus-Core"] then
@@ -30,7 +30,7 @@ data:extend({
     type = "resource",
     icon_size = 64, icon_mipmaps = 3,
     name = "titanium-ore",
-    icon = "__bztitanium__/graphics/icons/titanium-ore.png",
+    icon = "__bztitanium2__/graphics/icons/titanium-ore.png",
     flags = {"placeable-neutral"},
     order="a-b-a",
     map_color = {r=0.65, g=0.80, b=0.80},
@@ -59,7 +59,7 @@ data:extend({
         {
           sheet =
           {
-        filename = "__bztitanium__/graphics/entity/ores/hr-titanium-ore.png",
+        filename = "__bztitanium2__/graphics/entity/ores/hr-titanium-ore.png",
         priority = "extra-high",
         size = 128,
         frame_count = 8,
@@ -72,15 +72,15 @@ data:extend({
       type = "item",
       name = "titanium-ore",
       icon_size = 64, icon_mipmaps = 3,
-      icon = "__bztitanium__/graphics/icons/titanium-ore.png",
+      icon = "__bztitanium2__/graphics/icons/titanium-ore.png",
       inventory_move_sound = item_sounds.resource_inventory_move,
       pick_sound = item_sounds.resource_inventory_pickup,
       drop_sound = item_sounds.resource_inventory_move,
       pictures = {
-        {filename="__bztitanium__/graphics/icons/titanium-ore.png", size=64, scale=0.5},
-        {filename="__bztitanium__/graphics/icons/titanium-ore-2.png", size=64, scale=0.5},
-        {filename="__bztitanium__/graphics/icons/titanium-ore-3.png", size=64, scale=0.5},
-        {filename="__bztitanium__/graphics/icons/titanium-ore-4.png", size=64, scale=0.5},
+        {filename="__bztitanium2__/graphics/icons/titanium-ore.png", size=64, scale=0.5},
+        {filename="__bztitanium2__/graphics/icons/titanium-ore-2.png", size=64, scale=0.5},
+        {filename="__bztitanium2__/graphics/icons/titanium-ore-3.png", size=64, scale=0.5},
+        {filename="__bztitanium2__/graphics/icons/titanium-ore-4.png", size=64, scale=0.5},
       },
       subgroup = "raw-resource",
       order = "t-c-a",

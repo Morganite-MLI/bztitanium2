@@ -1,5 +1,5 @@
 -- Enriched Titanium for Krastorio2
-local util = require("__bztitanium__.data-util");
+local util = require("data-util");
 
 if util.k2() then
 data:extend(
@@ -8,12 +8,12 @@ data:extend(
     type = "item",
     name = "enriched-titanium",
     icon_size = 64, icon_mipmaps = 3,
-    icon = "__bztitanium__/graphics/icons/enriched-titanium.png",
+    icon = "__bztitanium2__/graphics/icons/enriched-titanium.png",
       pictures = {
-        {filename="__bztitanium__/graphics/icons/enriched-titanium.png", size=64, scale=0.5},
-        {filename="__bztitanium__/graphics/icons/enriched-titanium-2.png", size=64, scale=0.5},
-        {filename="__bztitanium__/graphics/icons/enriched-titanium-3.png", size=64, scale=0.5},
-        {filename="__bztitanium__/graphics/icons/enriched-titanium-4.png", size=64, scale=0.5},
+        {filename="__bztitanium2__/graphics/icons/enriched-titanium.png", size=64, scale=0.5},
+        {filename="__bztitanium2__/graphics/icons/enriched-titanium-2.png", size=64, scale=0.5},
+        {filename="__bztitanium2__/graphics/icons/enriched-titanium-3.png", size=64, scale=0.5},
+        {filename="__bztitanium2__/graphics/icons/enriched-titanium-4.png", size=64, scale=0.5},
       },
     subgroup = "raw-material",
     order = "e05-a[enriched-ores]-a1[enriched-titanium]",
@@ -23,7 +23,7 @@ data:extend(
     type = "recipe",
     name = "enriched-titanium",
     main_product = "enriched-titanium",
-    icon = "__bztitanium__/graphics/icons/enriched-titanium.png",
+    icon = "__bztitanium2__/graphics/icons/enriched-titanium.png",
     icon_size = 64, icon_mipmaps = 3,
     category = "chemistry",
     energy_required = 3,
@@ -57,8 +57,8 @@ data:extend(
       name = "enriched-titanium-plate",
       icons =
       {
-        { icon = "__bztitanium__/graphics/icons/titanium-plate.png", icon_size = 64, icon_mipmaps = 3, },
-        { icon = "__bztitanium__/graphics/icons/enriched-titanium.png", icon_size = 64, icon_mipmaps = 3, scale=0.25, shift= {-8, -8}},
+        { icon = "__bztitanium2__/graphics/icons/titanium-plate.png", icon_size = 64, icon_mipmaps = 3, },
+        { icon = "__bztitanium2__/graphics/icons/enriched-titanium.png", icon_size = 64, icon_mipmaps = 3, scale=0.25, shift= {-8, -8}},
       },
       category = "smelting",
       energy_required = 16,
@@ -84,7 +84,7 @@ data:extend(
           tint = { a=1.0, b=0.75, r=0.75, g=0.75 }
         },
         {
-          icon = "__bztitanium__/graphics/icons/enriched-titanium.png",
+          icon = "__bztitanium2__/graphics/icons/enriched-titanium.png",
           icon_size = 64, icon_mipmaps = 3,
           scale = 2,
           shift = {48, 48}

@@ -1,4 +1,4 @@
-local util = require("__bztitanium__.data-util");
+local util = require("data-util");
 
 if mods["5dim_core"] then
 
@@ -16,7 +16,7 @@ if mods["5dim_core"] then
         category = "industrial-furnace",
         subgroup = "plates-industrial-ore",
         order = "ad[titanium-plate]",
-        icon = "__bztitanium__/graphics/icons/titanium-plate.png",
+        icon = "__bztitanium2__/graphics/icons/titanium-plate.png",
         icon_size = 64, icon_mipmaps = 3,
         enabled = false,
         energy_required = 140,
@@ -38,14 +38,14 @@ if mods["5dim_core"] then
               name = "titanium-dust",
               subgroup = "plates-dust",
               order = "d[titanium-plate]",
-              icon = "__bztitanium__/graphics/icons/titanium-powder.png",
+              icon = "__bztitanium2__/graphics/icons/titanium-powder.png",
               icon_size = 64, icon_mipmaps = 3,
               stack_size = 200
           },
           {
               type = "recipe",
               name = "titanium-plate-dust",
-              icon = "__bztitanium__/graphics/icons/titanium-plate.png",
+              icon = "__bztitanium2__/graphics/icons/titanium-plate.png",
               icon_size = 64, icon_mipmaps = 3,
               subgroup = "plates-plates2",
               order = "d[titanium-plate]",
@@ -78,7 +78,7 @@ if mods["5dim_core"] then
             category = "industrial-furnace",
             subgroup = "plates-industrial-dust",
             order = "ad[titanium-plate]",
-            icon = "__bztitanium__/graphics/icons/titanium-plate.png",
+            icon = "__bztitanium2__/graphics/icons/titanium-plate.png",
             icon_size = 64, icon_mipmaps = 3,
             enabled = false,
             energy_required = 140,

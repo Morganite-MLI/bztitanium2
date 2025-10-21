@@ -1,5 +1,5 @@
 -- Additions for Space Exploration mod.
-local util = require("__bztitanium__.data-util");
+local util = require("data-util");
 
 
 if data.raw.recipe["se-space-pipe"] then

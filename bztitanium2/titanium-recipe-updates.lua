@@ -1,6 +1,6 @@
 -- Titanium recipe & tech changes
 --
-local util = require("__bztitanium__.data-util");
+local util = require("data-util");
 
 util.add_fluid_mining()
 -- Space Age

@@ -1,4 +1,4 @@
-local util = require("__bztitanium__.data-util");
+local util = require("data-util");
 
 -- Various vehicle/transport mod changes
 if mods["Aircraft"] then

@@ -10,7 +10,7 @@ for i, dummy in pairs(dummy_items) do
     data:extend({{
       type = "item",
       name = dummy,
-      icon = "__bztitanium__/graphics/icons/titanium-plate.png",
+      icon = "__bztitanium2__/graphics/icons/titanium-plate.png",
       icon_size = 64, icon_mipmaps = 3,
       subgroup = "raw-material",
       order = "zzzz-dummy",
@@ -25,7 +25,7 @@ for i, dummy in pairs(dummy_techs) do
     type = "technology",
     name = dummy,
     icon_size = 256, icon_mipmaps = 4,
-    icon = "__bztitanium__/graphics/technology/titanium-processing.png",
+    icon = "__bztitanium2__/graphics/technology/titanium-processing.png",
     effects = nil,
     unit =
     {

@@ -1,5 +1,5 @@
 -- Matter recipes for Krastorio2
-local util = require("__bztitanium__.data-util");
+local util = require("data-util");
 if util.k2() then
 
 data:extend(
@@ -14,7 +14,7 @@ data:extend(
         icon_size = 256,
       },
       {
-        icon = "__bztitanium__/graphics/icons/titanium-ore.png",
+        icon = "__bztitanium2__/graphics/icons/titanium-ore.png",
         icon_size = 64, icon_mipmaps = 3,
         scale = 1.5,
       }

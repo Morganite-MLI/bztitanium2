@@ -21,7 +21,7 @@ if util.se6() then
   {
     type = "item",
     name = "titanium-ingot",
-    icons = {{icon = "__bztitanium__/graphics/icons/titanium-ingot.png", icon_size = 128}},
+    icons = {{icon = "__bztitanium2__/graphics/icons/titanium-ingot.png", icon_size = 128}},
     order = "b-b",
     stack_size = 50,
     subgroup = "titanium",
@@ -33,7 +33,7 @@ if util.se6() then
     max_temperature = 1668,
     base_color = {r=191, g=219, b=233},
     flow_color = {r=191, g=219, b=233},
-    icons = {{icon = "__bztitanium__/graphics/icons/molten-titanium.png", icon_size = 128}},
+    icons = {{icon = "__bztitanium2__/graphics/icons/molten-titanium.png", icon_size = 128}},
     order = "a[molten]-a",
     pressure_to_speed_ratio = 0.4,
     flow_to_energy_ratio = 0.59,
@@ -77,8 +77,8 @@ if util.se6() then
     name = "titanium-ingot-to-plate",
 
     icons = {
-      {icon = "__bztitanium__/graphics/icons/titanium-plate.png", icon_size = 64, icon_mipmaps = 3},
-      {icon = "__bztitanium__/graphics/icons/titanium-ingot.png", icon_size = 128, scale = 0.125, shift = {-8, -8}},
+      {icon = "__bztitanium2__/graphics/icons/titanium-plate.png", icon_size = 64, icon_mipmaps = 3},
+      {icon = "__bztitanium2__/graphics/icons/titanium-ingot.png", icon_size = 128, scale = 0.125, shift = {-8, -8}},
     },
     results = {
       {type="item", name = "titanium-plate", amount = 10},
@@ -129,7 +129,7 @@ else
       },
       icons =
       {
-        { icon = "__bztitanium__/graphics/icons/titanium-plate.png", icon_size = 64, icon_mipmaps = 3 },
+        { icon = "__bztitanium2__/graphics/icons/titanium-plate.png", icon_size = 64, icon_mipmaps = 3 },
         { icon = "__space-exploration-graphics__/graphics/icons/vulcanite-block.png", icon_size = 64, scale=0.25, shift= {-10, -10}},
       },
     },
@@ -159,7 +159,7 @@ else
       },
       icons =
       {
-        { icon = "__bztitanium__/graphics/icons/titanium-plate.png", icon_size = 64, icon_mipmaps = 3,},
+        { icon = "__bztitanium2__/graphics/icons/titanium-plate.png", icon_size = 64, icon_mipmaps = 3,},
         { icon = "__space-exploration-graphics__/graphics/icons/vulcanite-block.png", icon_size = 64, scale=0.25, shift= {-10, -10}},
       },
     },
