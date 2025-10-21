@@ -125,7 +125,7 @@ else
         { type = "item", name = "se-vulcanite-block", amount = 1},
       },
       results = {
-        {name = util.me.titanium_plate, amount = 6},
+        {type = "item", name = util.me.titanium_plate, amount = 6},
       },
       icons =
       {
