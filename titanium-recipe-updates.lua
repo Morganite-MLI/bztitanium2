@@ -8,7 +8,7 @@ if mods["space-age"] then
   util.replace_some_ingredient("space-platform-foundation", "steel-plate", 15, util.me.titanium_plate, 15)
   util.replace_ingredient("electromagnetic-plant", "steel-plate", util.me.titanium_plate)
   util.add_ingredient("superconductor", util.me.titanium_plate, 1)
-  util.add_product("scrap-recycling", {type="item", name=util.me.titanium_plate, amount=1, probability=mods.bztin and 0.01 or 0.02})
+  util.add_product("scrap-recycling", {type="item", name=util.me.titanium_plate, amount=1, probability=mods["bztin2"] and 0.01 or 0.02})
   util.replace_ingredient("capture-bot-rocket", "steel-plate", "titanium-plate")
 
   util.add_unlock("foundry", "titanium-sublimation")
@@ -178,7 +178,7 @@ util.add_ingredient("BetterBelts_ultra-underground-belt-v1", util.me.titanium_pl
 util.add_ingredient("ultra-fast-belt", util.me.titanium_plate, 5)
 util.add_ingredient("ultra-fast-underground-belt", util.me.titanium_plate, 20)
 util.add_ingredient("ultra-fast-belt-loader", util.me.titanium_plate, 10)
-if not mods.bzaluminum then
+if not mods.bzaluminum2 then
   util.replace_ingredient("extreme-fast-belt", "express-transport-belt", util.me.titanium_plate, 10)
   util.replace_ingredient("extreme-fast-underground-belt", "express-underground-belt", util.me.titanium_plate, 40)
   util.replace_ingredient("extreme-fast-belt-loader", "express-transport-belt-loader", util.me.titanium_plate, 20)
@@ -187,7 +187,7 @@ end
 -- Advanced belts
 util.add_ingredient("extreme-belt", util.me.titanium_plate, 5)  -- Advanced
 util.add_ingredient("extreme-underground", util.me.titanium_plate, 20)
-if not mods.bzaluminum then
+if not mods.bzaluminum2 then
   util.add_ingredient("ultimate-belt", util.me.titanium_plate, 10)  -- Elite
   util.add_ingredient("ultimate-underground", util.me.titanium_plate, 40)
 end

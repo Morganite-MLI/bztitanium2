@@ -2,7 +2,7 @@
 if mods["EndgameCombat"] and not mods["pyrawores"] and not mods["bobplates"] and not mods["angelssmelting"] then
 
 local dummy_items = {"cobalt-steel", "nickel", "aluminium"}
-if not mods.bztungsten then
+if not mods.bztungsten2 then
   table.insert(dummy_items, "tungsten")
 end
 for i, dummy in pairs(dummy_items) do

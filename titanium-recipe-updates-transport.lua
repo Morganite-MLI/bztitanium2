@@ -58,7 +58,7 @@ if mods["pyalienlife"] then
   util.remove_prerequisite("modular-armor", "advanced-circuit")
 end
 
-if not mods.bzaluminum then
+if not mods.bzaluminum2 then
   -- se space trains
   util.add_ingredient("recipe-space-locomotive", util.me.titanium_plate, 10)
   util.add_ingredient("recipe-space-fluid-wagon", util.me.titanium_plate, 10)

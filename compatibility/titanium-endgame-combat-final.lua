@@ -5,7 +5,7 @@ if mods.EndgameCombat and not mods["pyrawores"] and not mods["bobplates"] and no
 local util = require("data-util");
 
 local dummy_items = {"cobalt-steel", "nickel", "aluminium"}
-if not mods.bztungsten then
+if not mods.bztungsten2 then
   table.insert(dummy_items, "tungsten")
 end
 for i, dummy in pairs(dummy_items) do
@@ -13,7 +13,7 @@ for i, dummy in pairs(dummy_items) do
 end
 
 local dummy_techs = {"cobalt-processing", "nickel-processing", "aluminium-processing"}
-if not mods.bztungsten then
+if not mods.bztungsten2 then
   table.insert(dummy_techs, "tungsten-processing")
 end
 for i, dummy in pairs(dummy_techs) do
@@ -32,7 +32,7 @@ util.remove_prerequisite("acid-turrets", "aluminium-processing")
 util.remove_ingredient("power-armor-mk3", "copper-tungsten-alloy")
 util.remove_prerequisite("power-armor-mk3", "nitinol-processing")
 
-if not mods.bztungsten then
+if not mods.bztungsten2 then
   util.remove_prerequisite("power-armor-mk3", "tungsten-processing")
 
   util.remove_ingredient("lightning-turret", "tungsten")
