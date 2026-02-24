@@ -1,7 +1,7 @@
 local util = require("data-util");
 
 if mods["248k-Redux"] then
-  local ti2 = "fi_materials_titan"
+  local ti2 = "fi_titan"
 
   -- Swap out all 248k titanium for BZ titanium_plate
   for i, recipe in pairs(data.raw.recipe) do
