@@ -8,6 +8,7 @@
   "homepage": "https://discord.gg/ufvFUJtVwk",
   "dependencies": [
     "base >= 1.0.0",
+    "bzlib",
     "? aai-industry",
     "? space-exploration",
     "? Krastorio2",
