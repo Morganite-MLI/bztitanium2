@@ -7,7 +7,7 @@ if mods["space-exploration"] then
   util.se_landfill({ore="titanium-ore"})
   
 if util.se6() then
-  util.se_matter({ore="titanium-ore", energy_required=2, quant_out=10, stream_out=60})
+  util.se_matter({ore="titanium-ore", energy_required=2, quant_out=10, stream_out=600})
   data:extend({
   {
     type = "item-subgroup",

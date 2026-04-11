@@ -6,6 +6,7 @@ require("titanium-recipe-se")  -- Space Exploration special recipes (depends on 
 require("titanium-compressed")
 require("titanium-data-settings")
 require("compatibility.data.hot-metals")
+require("titanium-matter")
 
 -- First part of hack for endgame combat
 require("compatibility/titanium-endgame-combat-data")
