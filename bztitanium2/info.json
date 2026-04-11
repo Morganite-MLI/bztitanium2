@@ -1,6 +1,6 @@
 {
   "name": "bztitanium2",
-  "version": "2.0.27",
+  "version": "2.1.0",
   "factorio_version": "2.0",
   "title": "Titanium - Legacy",
   "description": "Adds titanium to the base game.\n\nTitanium is used in Low Density Structures, Flying Robot Frames and a few other places.",
@@ -8,6 +8,7 @@
   "homepage": "https://discord.gg/ufvFUJtVwk",
   "dependencies": [
     "base >= 1.0.0",
+    "bzlib",
     "? aai-industry",
     "? space-exploration",
     "? Krastorio2",
