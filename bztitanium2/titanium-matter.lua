@@ -16,13 +16,13 @@ data:extend(
       {
         icon = "__bztitanium2__/graphics/icons/titanium-ore.png",
         icon_size = 64, icon_mipmaps = 3,
-        scale = 1.5,
+        scale = 0.9,
       }
     },
     effects = {},
     prerequisites = {"kr-matter-processing"},
     unit =
-  	{
+    {
       count = 350,
       ingredients =
       {
