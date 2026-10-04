@@ -25,7 +25,7 @@ data:extend({
     type = "recipe",
     name = util.me.titanium_plate,
     main_product = util.me.titanium_plate,
-    category = "smelting",
+    categories = {"smelting"},
     order = "d[titanium-plate]",
     icons = (util.k2() and
         {
@@ -73,7 +73,7 @@ data:extend({
         recipe = "big-titanium-plate",
       } or nil,
     },
-    research_trigger = {type="mine-entity", entity="titanium-ore"},
+    research_trigger = {type="mine-entity", entities={"titanium-ore"}},
     prerequisites = {"lubricant", "uranium-mining"},
     order = "b-b"
   },
@@ -107,7 +107,7 @@ data:extend({
     type = "recipe",
     name = "titanium-ore-from-stone",
     main_product = "titanium-ore",
-    category = "chemistry",
+    categories = {"chemistry"},
     subgroup = "vulcanus-processes",
     order = "d[titanium-ore]",
     icons = {
@@ -124,7 +124,7 @@ data:extend({
     type = "recipe",
     name = "titanium-sublimation",
     main_product = "vacuum",
-    category = "chemistry",
+    categories = {"chemistry"},
     subgroup = "vulcanus-processes",
     order = "d[titanium-sublimation]",
     icons = {
@@ -145,7 +145,7 @@ data:extend({
     type = "recipe",
     name = "titanium-in-foundry",
     main_product = util.me.titanium_plate,
-    category = "metallurgy",
+    categories = {"metallurgy"},
     subgroup = "vulcanus-processes",
     order = "d[titanium-ore]",
     icons = {
@@ -164,7 +164,7 @@ data:extend({
   {
     type = "recipe",
     name = "titanium-extraction",
-    category = "organic-or-hand-crafting",
+    categories = {"organic-or-hand-crafting"},
     icons = {
           { icon = "__bztitanium2__/graphics/icons/titanium-ore.png", icon_size = 64, scale = 0.5, icon_mipmaps = 3, shift = {6,8}},
           { icon = "__space-age__/graphics/icons/jellynut.png", icon_size = 64, scale = 0.5, shift = {-6, -8}},

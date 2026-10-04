@@ -13,7 +13,7 @@ if mods["5dim_core"] then
       {
         type = "recipe",
         name = "titanium-plate-industrial-ore",
-        category = "industrial-furnace",
+        categories = {"industrial-furnace"},
         subgroup = "plates-industrial-ore",
         order = "ad[titanium-plate]",
         icon = "__bztitanium2__/graphics/icons/titanium-plate.png",
@@ -49,7 +49,7 @@ if mods["5dim_core"] then
               icon_size = 64, icon_mipmaps = 3,
               subgroup = "plates-plates2",
               order = "d[titanium-plate]",
-              category = "smelting",
+              categories = {"smelting"},
               energy_required = 8,
               enabled = false,
               ingredients = {
@@ -62,7 +62,7 @@ if mods["5dim_core"] then
           {
               type = "recipe",
               name = "titanium-dust",
-              category = "mashering",
+              categories = {"mashering"},
               order = "d[titanium-plate]",
               energy_required = 3.2,
               enabled = false,
@@ -75,7 +75,7 @@ if mods["5dim_core"] then
           {
             type = "recipe",
             name = "titanium-plate-industrial-dust",
-            category = "industrial-furnace",
+            categories = {"industrial-furnace"},
             subgroup = "plates-industrial-dust",
             order = "ad[titanium-plate]",
             icon = "__bztitanium2__/graphics/icons/titanium-plate.png",

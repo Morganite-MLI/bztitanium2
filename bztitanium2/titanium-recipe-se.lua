@@ -42,7 +42,7 @@ if util.se6() then
   },
   {
     type = "recipe",
-    category = "smelting",
+    categories = {"smelting"},
     name = "molten-titanium",
     subgroup = "titanium",
     results = {
@@ -61,7 +61,7 @@ if util.se6() then
   {
     type = "recipe",
     name = "titanium-ingot",
-    category = "casting",
+    categories = {"casting"},
     results = {{type="item", name="titanium-ingot", amount=1}},
     energy_required = 100,
     ingredients = {
@@ -73,7 +73,7 @@ if util.se6() then
   },
   {
     type = "recipe",
-    category = "crafting",
+    categories = {"crafting"},
     name = "titanium-ingot-to-plate",
 
     icons = {
@@ -114,7 +114,7 @@ else
     {
       type = "recipe",
       name = "enriched-titanium-smelting-vulcanite",
-      category = "smelting",
+      categories = {"smelting"},
       order = "d[titanium-plate]",
       energy_required = 24,
       enabled = false,
@@ -144,7 +144,7 @@ else
     {
       type = "recipe",
       name = "titanium-smelting-vulcanite",
-      category = "smelting",
+      categories = {"smelting"},
       order = "d[titanium-plate]",
       energy_required = 48,
       enabled = false,
